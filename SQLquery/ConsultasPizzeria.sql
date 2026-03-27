@@ -65,7 +65,7 @@ FROM
   [BD_PROJECT_SALES].[dbo].[Sales_pizza]
 GROUP BY DATENAME(MONTH, [ORDER_DATE]);
 
-/********************* PORCENTAJE DE VENTAS POR TAMAÑO DE PIZZA *************************************************/
+/********************* PORCENTAJE DE VENTAS POR TAMAÃ‘O DE PIZZA *************************************************/
 SELECT 
   [PIZZA_SIZE], 
   SUM([TOTAL_PRICE]) AS TOTAL_VENTA, 
